@@ -7,7 +7,13 @@
 
 
 
-/* ── TOPNAV ── */
+/* ── TOPNAV ── 
+
+.topnav{
+    overflow:visible;
+}
+
+*/
 .topnav{
     position:sticky;top:0;z-index:1000;
     background:var(--secondary);
@@ -76,10 +82,10 @@
   @media(min-width:900px){.hero-inner{grid-template-columns:1.1fr .9fr;}}
   .hero-eyebrow{
     display:inline-flex;align-items:center;gap:8px;
-    background:rgba(96,165,250,.12);border:1px solid rgba(96,165,250,.25);
+    background:rgba(96,165,250,.12);border:1px solid rgb(255, 255, 255);
     border-radius:30px;padding:6px 14px;
     font-family:'Cinzel',serif;font-size:.72rem;
-    letter-spacing:.18em;color:var(--accent);text-transform:uppercase;
+    letter-spacing:.22em;color:white;text-transform:uppercase;
     margin-bottom:20px;
   }
   .hero h1{
